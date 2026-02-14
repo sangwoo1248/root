@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
                   className="hover:opacity-70 transition-opacity"
                 >
                   <img
-                    src="/public/img/instar.jpg"
+                    src="/img/instar.jpg"
                     alt="인스타그램"
                     className="h-6 w-6"
                   />
