@@ -107,7 +107,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
-                  to="/subscription"
+                  to="/booking"
                   className="hover:text-rootGold transition-colors"
                 >
                   서포터즈
