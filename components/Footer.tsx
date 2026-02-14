@@ -12,11 +12,7 @@ const Footer: React.FC = () => {
           <div className="w-full md:w-1/2 flex flex-col items-start">
             <div className="flex items-center mb-4">
               {/* 로고 이미지 */}
-              <img
-                src="/public/img/logo2.png"
-                alt="Root 로고"
-                className="h-10 mr-4"
-              />
+              <img src="/img/logo2.png" alt="Root 로고" className="h-10 mr-4" />
 
               {/* SNS 아이콘 */}
               <div className="flex space-x-3">
