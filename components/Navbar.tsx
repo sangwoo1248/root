@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
 
   const navLinks = [
     { path: "/", label: "Home" }, // 메인
-    { path: "/info", label: "Philosophy" }, // Philosophy를 /info로 연결
+    { path: "/info", label: "info" }, // /info로 연결
     { path: "/programs", label: "Programs" }, // 프로그램 목록
     { path: "/contents", label: "Contents" },
     { path: "/projects", label: "Projects" },
