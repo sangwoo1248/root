@@ -12,7 +12,11 @@ const Footer: React.FC = () => {
           <div className="w-full md:w-1/2 flex flex-col items-start">
             <div className="flex items-center mb-4">
               {/* 로고 이미지 */}
-              <img src="/img/logo2.png" alt="Root 로고" className="h-10 mr-4" />
+              <img
+                src="/public/img/logo2.png"
+                alt="Root 로고"
+                className="h-10 mr-4"
+              />
 
               {/* SNS 아이콘 */}
               <div className="flex space-x-3">
@@ -23,7 +27,7 @@ const Footer: React.FC = () => {
                   className="hover:opacity-70 transition-opacity"
                 >
                   <img
-                    src="/img/instar.jpg"
+                    src="/public/img/instar.jpg"
                     alt="인스타그램"
                     className="h-6 w-6"
                   />
